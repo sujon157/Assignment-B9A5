@@ -69,39 +69,45 @@
         <div class="grid grid-cols-1 justify-center items-center">
 
 
-            <h1 class="text-4xl font-semibold text-center">Best offers for you</h1>
+            <h1 class="text-4xl font-bold text-black text-center">Best offers for you</h1>
 
-            <div class=" flex justify-center gap-10 mt-7 items-center flex-col lg:flex-row">
-
-                <div class="flex border w-96 bg-[#FFBF0F]">
-                    <!-- <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                            alt="Shoes" /></figure> -->
-                    <div>
-                        <h1>16% OFF</h1>
-                        <p>on your next purchase <br> use by January 2024</p>
-
+            <div class=" flex justify-between gap-10 mt-7 mx-16  flex-col lg:flex-row">
+                 <!-- first coupon -->
+                <div class="flex justify-between rounded-3xl w-[573px] h-[220px] bg-[#FFBF0F]">
+                    <div class="px-4 mt-10 ml-6">
+                        <h1 class="font-extrabold text-5xl text-[#030712CC]">15% OFF</h1>
+                        <h3 class="text-xl font-bold text-[#030712CC]">on your next purchase </h3><br>
+                        <p class="mb-3 text-[#03071280] font-medium text-sm"> use by January 2024</p>
                     </div>
-                    <img src="images/cupon-devider.png" alt="">
-                    <div class="">
-                        <h1>NEW15 </h1>
-                        <p>Coupon code</p>
+                    <img class="ml-6" src="images/cupon-devider.png" alt="">
+                    <div class="font-raleway  mt-16 mr-4 px-6">
+                        <h1 class="text-[#030712] font-bold text-4xl mr-2 mt-3">NEW15 </h1>
+                        <p class="text-[#03071266] text-sm font-medium mt-2">Coupon code</p>
                     </div>
-
                 </div>
-                <div class="card border w-96 bg-[#FFBF0F]">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                            alt="Shoes" /></figure>
-
+              <!-- second coupon -->
+                <div class="flex justify-between rounded-3xl w-[573px] h-[220px] bg-[#F78C9C]">
+                    <div class="px-4 mt-10 ml-6">
+                        <h1 class="font-extrabold text-5xl text-[#030712CC]">20% OFF</h1>
+                        <h3 class="text-xl font-bold text-[#030712CC]">on your next purchase </h3><br>
+                        <p class="mb-3 text-[#03071280] font-medium text-sm"> use by January 2024</p>
+                    </div>
+                    <img class="ml-6" src="images/cupon-devider.png" alt="">
+                    <div class="font-raleway  mt-16 mr-4 px-6">
+                        <h1 class="text-[#030712] font-bold text-3xl mr-2 mt-3">Couple 20 </h1>
+                        <p class="text-[#03071266] text-sm font-medium mt-2">Coupon code</p>
+                    </div>
                 </div>
 
             </div>
-            <div class="mt-16 text-center ">
-                <button class="btn btn-success">See All Offers</button>
+            <div class="mt-16 ml-[580px]  rounded-lg   w-[400px] h-[65px]">
+                <!-- button -->
+                <button class="btn  btn-outline btn-success text-2xl ">See All Offers</button>
             </div>
         </div>
         <!-- Bus info -->
 
-        <div id="bus-info" class=" bg-[#F7F8F8] w-auto   my-20">
+        <div id="bus-info" class=" bg-[#F7F8F8] w-auto ml-16  my-20">
             <div class="text-center mt-16">
                 <h2 class="text-black font-extrabold text-2xl ">P.H Paribahan</h2>
                 <p class="mb-5 mt-6">Yes,you can run unit tests and view the result directly within the app.The
@@ -109,31 +115,43 @@
                     <br> testing features allow for a streamlined
                 </p>
             </div>
-            <div class="flex border  mr-6 lg:ml-16 w-[1150px]   h-[418px]  bg-[#FFFFFF]">
-                <div class="flex justify-between w-[820px] border pt-8">
-                    <div class="flex   ml-5 h-[70px] gap-2">
-                        <img src="images/bus-logo.png" alt="">
-                        <div class="">
-                            <h1 class="text-2xl font-extrabold">Greenline Paribahan</h1>
-                            <p class="font-normal text-sm pt-2 text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+            <div class="flex border rounded-2xl mr-6 lg:ml-16 w-[1150px]   h-[418px]  bg-[#FFFFFF]">
+                <div>
+                    <div class="flex justify-between w-[820px]  pt-8">
+                        <div class="flex   ml-5 h-[50px] gap-2">
+                            <img src="images/bus-logo.png" alt="">
+                            <div class="">
+                                <h1 class="text-2xl font-extrabold">Greenline Paribahan</h1>
+                                <p class="font-normal text-sm pt-2 text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center gap-2 bg-[#1DD10026] ml-44 w-[172px] rounded-lg h-[50px]">
+                            <img class="w-[21px] h-[21px] mt-3" src="images/seat-green.png" alt="">
+                            <h4 id="seat-left" class="text-[#1DD100] text-xl font-medium pt-2">8 seats left</h4>
                         </div>
                     </div>
-                    <div class="flex justify-center gap-2 bg-[#1DD10026] ml-44 w-[180px] rounded-lg h-[50px]">
-                        <img src="images/seat-green.png" alt="">
-                        <h4 class="text-[#1DD100] text-xl font-medium pt-2">40 seats left</h4>
-                    </div>
-
-                    <div class="">
-                        <div>
+                    <div class="w-[808px] h-[258px] space-y-5 px-6 mt-5 bg-[#F7F8F8]">
+                        <div class="flex justify-between">
                             <p class="text-xl">Route</p>
                             <h1>Sylhet-Dhaka</h1>
                         </div>
+                        <hr style="border-top: 2px dashed #03071233 ;width: 100%;">
+                        <div class="flex justify-between">
+                            <p class="text-xl">Departure Time</p>
+                            <h1>9 PM</h1>
+                        </div>
+                        <hr style="border-top: 2px dashed #03071233 ;width: 100%;">
+                        <div class="flex justify-between mt-3 ">
+                            <button class="w-[232px] h-[56px] bg-[#0307120D] rounded-md">Boarding
+                                Point-Laxmipur</button>
+                            <button class="w-[232px] h-[56px] bg-[#0307120D] rounded-md">Dropping Point-Bogura</button>
+                            <button class="w-[232px] h-[56px] bg-[#0307120D] rounded-md">Est. Time-11 Hour</button>
+                        </div>
                     </div>
-
                 </div>
-
+                <!-- Seat amount  -->
                 <div class="flex ml-5">
-                    <div class="vertical-dashed-line bg-yellow-400"></div>
+                    <!-- <div class="vertical-dashed-line bg-yellow-400"></div> -->
                     <img src="images/info-devider.png" alt="">
                     <div class="text-center mt-32 ml-10">
                         <img class="ml-7" src="images/fare.png" alt="">
@@ -144,7 +162,7 @@
 
             </div>
             <!-- Avilable seat and ticketing interface -->
-            <div class="grid grid-cols-2  mr-6 h-[1056px] w-[1150px] my-5 lg:ml-16 border  bg-[#FFFFFF]">
+            <div class="grid grid-cols-2  mr-6 h-[1056px] rounded-2xl w-[1150px] my-5 lg:ml-16 border  bg-[#FFFFFF]">
                 <!-- seat section -->
                 <div class="flex">
                     <div class=" mr-6 space-y-4 mt-10 w-[650px] ml-4">
@@ -170,7 +188,8 @@
                             <img class=" w-6 h-6 " src="images/Vector@2x.jpeg" alt="">
 
                         </div>
-                        <div class="flex justify-around gap-1 my-1 w-full">
+                       <div >
+                        <div id="id="seat-container" class="flex justify-around gap-1 my-1 w-full">
                             <p id="A" class="pt-3 text-lg">A</p>
                             <kbd id="A1" class="kbd w-[110px] h-[56px]">A1</kbd>
                             <kbd id="A2" class="kbd w-[110px] h-[56px]">A2</kbd>
@@ -185,7 +204,8 @@
                             <kbd id="B3" class="kbd w-[110px] h-[56px]">B3</kbd>
                             <kbd id="B4" class="kbd w-[110px] h-[56px]">B4</kbd>
                         </div>
-                        <div class="flex justify-around gap-1 my-1 w-full">
+                       </div>
+                        <!-- <div class="flex justify-around gap-1 my-1 w-full">
                             <kbd id="C" class="pt-3 text-lg">C</kbd>
                             <kbd id="C1" class="kbd w-[110px] h-[56px] ">C1</kbd>
                             <kbd id="C2" class="kbd w-[110px] h-[56px] ">C2</kbd>
@@ -245,7 +265,7 @@
                             <kbd id="J3" class="kbd w-[110px] h-[56px]">J3</kbd>
                             <kbd id="J4" class="kbd w-[110px] h-[56px]">J4</kbd>
                         </div>
-
+ -->
 
                         <!-- seat number end -->
                     </div>
@@ -253,12 +273,12 @@
                 </div>
                 <!-- ticket pay section -->
                 <div class=" w-[480px] ml-24 mt-10  ">
-                  <div class="space-y-4 ml-3">
-                    <h1 class="text-xl font-bold ">Select Your Seat</h1>
-                    <hr style="border-top: 2px dashed #03071233 ;width: 100%;">
-                  </div>
+                    <div class="space-y-4 ml-3">
+                        <h1 class="text-xl font-bold ">Select Your Seat</h1>
+                        <hr style="border-top: 2px dashed #03071233 ;width: 100%;">
+                    </div>
                     <div class="flex  w-full ">
-                    
+
 
                         <div class=" mt-16 mr-4 w-[433px]  h-[335px]">
                             <table class="table  ml-5">
@@ -290,7 +310,7 @@
                                 </tbody>
                             </table>
                             <hr class="w-full ml-5">
-                            <h1 class="px-5">Total price <span class="ml-56">BDT 1100</span></h1>
+                            <h1 id="total-price" class="px-5">Total price <span class="ml-56">BDT 1100</span></h1>
                             <br>
                             <div
                                 class="bg-white rounded-md flex justify-between border px-3 pt-1 ml-8 mr-8 w-[369px] h-[50px]">
@@ -315,7 +335,8 @@
                         <h1 class="text-lg font-bold">Email ID</h1>
                         <input class="px-3 w-[433px] h-[65px]" type="number" placeholder="Enter your email id">
                     </div>
-                    <button class="bg-[#1DD100] ml-6 mt-5 w-[433px] h-[65px] rounded-md text-white text-xl">Next</button>
+                    <button
+                        class="bg-[#1DD100] ml-6 mt-5 w-[433px] h-[65px] rounded-md text-white text-xl">Next</button>
                     <div class="flex justify-between items-center px-10 pt-6">
                         <div>
                             <p class="text-black text-base">Terms and condition</p>
@@ -332,7 +353,7 @@
             </div>
 
         </div>
-        
+
 
     </main>
     <footer class="footer p-24 h-[400px]  bg-neutral text-neutral-content">
@@ -380,7 +401,7 @@
             <hr style="border-top: 2px dashed white; width:200%;">
         </nav>
     </footer> -->
-
+<script src="scripts/scripts.js"></script>
 </body>
 
 </html>

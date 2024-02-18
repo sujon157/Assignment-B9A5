@@ -1,21 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap');
+
+.font-raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+
 #bus-info {
     /* border-radius: 88px 88px 0px 88px;
      */
-     border-top-left-radius: 60px;
-     border-top-right-radius: 60px;
-     border-bottom-left-radius: 0px;
-     border-bottom-right-radius: 0px;
-     border-top: 2px solid green;
-     
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top: 2px solid green;
+
 }
 
 
-.vertical-dashed-line{
+.vertical-dashed-line {
     /* border-left: 2px dashed #888; */
     border-left: 2px dashed #0307124D;
     height: 100%;
-    margin-right: 50px ;
+    margin-right: 50px;
 }
+
 hr {
     width: 100%;
     margin-top: 20px;
