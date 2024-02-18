@@ -17,20 +17,25 @@
         <!-- Nabvar section -->
         <div class="navbar bg-base-100 flex justify-between ">
             <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li> <a>Home</a> </li>
+                        <li> <a>About</a> </li>
+                        <li> <a>Destination</a> </li>
+                        <li> <a>Search</a> </li>
+                    </ul>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                    <li> <a>Home</a> </li>
-                    <li> <a >About</a> </li>
-                    <li> <a>Destination</a> </li>
-                    <li> <a>Search</a> </li>
-                </ul>
-              </div>
-              <a class=" text-4xl font-extrabold">P-Ticket</a>
+                <a class=" text-4xl font-extrabold">P-Ticket</a>
             </div>
-           
+
             <div class="navbar-center hidden lg:flex font-medium text-2xl text-[#030712B3B3]">
                 <ul class="menu menu-horizontal px-1">
                     <li> <a>Home</a> </li>
@@ -41,29 +46,208 @@
             </div>
             <div class="navbar-end gap-3">
                 <h1 class="text-2xl font-bold text-[#1DD100]">Bus</h1>
-                <img  src="images/bus-icon.png" alt="">
-           </div>
+                <img src="images/bus-icon.png" alt="">
+            </div>
         </div>
         <!-- banner section -->
         <div class="hero min-h-screen" style="background-image: url(images/banner.png);">
             <div class="hero-overlay bg-[#03071200]"></div>
             <div class="hero-content text-center text-neutral-content">
-              <div class="max-w">
-                <h1 class="mb-5 text-5xl font-bold text-white">End-to-End Travel With</h1>
-                <h1 class="text-6xl font-extrabold text-[#1DD100]">P Paribahan</h1>
-                <p class="mb-5">Yes,you can run unit tests and view the result directly within the app.The <br> integrated testing features allow for a streamlined</p>
-                <button class="w-[170px] h-[65px] text-black rounded-md bg-[#1DD100]">Buy Ticket</button>
-              </div>
+                <div class="max-w">
+                    <h1 class="mb-5 text-5xl font-bold text-white">End-to-End Travel With</h1>
+                    <h1 class="text-6xl font-extrabold text-[#1DD100]">P Paribahan</h1>
+                    <p class="mb-5">Yes,you can run unit tests and view the result directly within the app.The <br>
+                        integrated testing features allow for a streamlined</p>
+                    <button class="w-[170px] h-[65px] text-black rounded-md bg-[#1DD100]">Buy Ticket</button>
+                </div>
             </div>
-          </div>
+        </div>
 
     </header>
-    <main>
+    <main class="mt-28">
+        <!-- Offers section -->
+        <div class="grid grid-cols-1 justify-center items-center">
+
+
+            <h1 class="text-4xl font-semibold text-center">Best offers for you</h1>
+
+            <div class=" flex justify-center gap-10 mt-7 items-center flex-col lg:flex-row">
+
+                <div class="flex border w-96 bg-[#FFBF0F]">
+                    <!-- <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                            alt="Shoes" /></figure> -->
+                    <div>
+                        <h1>16% OFF</h1>
+                        <p>on your next purchase <br> use by January 2024</p>
+
+                    </div>
+                    <img src="images/cupon-devider.png" alt="">
+                    <div class="">
+                        <h1>NEW15 </h1>
+                        <p>Coupon code</p>
+                    </div>
+
+                </div>
+                <div class="card border w-96 bg-[#FFBF0F]">
+                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                            alt="Shoes" /></figure>
+
+                </div>
+
+            </div>
+            <div class="mt-16 text-center ">
+                <button class="btn btn-success">See All Offers</button>
+            </div>
+        </div>
+        <!-- Bus info -->
+
+        <div id="bus-info" class=" bg-[#F7F8F8] w-auto   my-20">
+            <div class="text-center mt-16">
+                <h2 class="text-black font-extrabold text-2xl ">P.H Paribahan</h2>
+                <p class="mb-5 mt-6">Yes,you can run unit tests and view the result directly within the app.The
+                    integrated
+                    <br> testing features allow for a streamlined
+                </p>
+            </div>
+            <div class="flex border  mr-6 lg:ml-16 w-[1150px]   h-[418px]  bg-[#FFFFFF]">
+                <div class="flex justify-between w-[820px] border pt-8">
+                    <div class="flex   ml-5 h-[70px] gap-2">
+                        <img src="images/bus-logo.png" alt="">
+                        <div class="">
+                            <h1 class="text-2xl font-extrabold">Greenline Paribahan</h1>
+                            <p class="font-normal text-sm pt-2 text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center gap-2 bg-[#1DD10026] ml-44 w-[180px] rounded-lg h-[50px]">
+                        <img src="images/seat-green.png" alt="">
+                        <h4 class="text-[#1DD100] text-xl font-medium pt-2">40 seats left</h4>
+                    </div>
+
+                    <div class="">
+                        <div>
+                            <p class="text-xl">Route</p>
+                            <h1>Sylhet-Dhaka</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="flex ml-5">
+                    <div class="vertical-dashed-line bg-yellow-400"></div>
+                    <img src="images/info-devider.png" alt="">
+                    <div class="text-center mt-32 ml-10">
+                        <img class="ml-7" src="images/fare.png" alt="">
+                        <h4 class="font-extrabold text-2xl ">550 Taka</h4>
+                        <p class="">per seat</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Avilable seat and ticketing interface -->
+            <div class="grid grid-cols-2 mr-6 h-[1056px] w-[1150px] my-5 lg:ml-16 border  bg-[#FFFFFF]">
+                <!-- seat section -->
+                <div class=" mr-6 space-y-4 border w-auto ml-4">
+                    <h1 class="text-xl font-bold">Select Your Seat</h1>
+                    <hr style="border-top: 2px dashed #03071233 ;width: 100%;">
+                    <div class="flex justify-between">
+
+                        <div class="flex gap-2 ">
+
+                            <img src="images/seat-gray.png" alt="">
+                            <span>Available</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <img src="images/seat-green-filled.png" alt="">
+                            <span class="text-[#1DD100]">Selected</span>
+
+                        </div>
+                    </div>
+                    <hr style="border-top: 2px dashed #03071233 ;width:100%;">
+                </div>
+                <!-- ticket pay section -->
+                
+                    <div class="vertical-dashed-line"></div>
+                    <!-- table section -->
+                    <div>
+                        <table class="table w-[433px] border">
+                            <!-- head -->
+                            <thead>
+                                <tr>
+                                   <td>Seat</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- row 1 -->
+                                <tr>
+                                    
+                                    
+                                   
+                                </tr>
+                                <!-- row 2 -->
+                                <tr>
+                                    
+                                
+                                </tr>
+                                <!-- row 3 -->
+                                <tr>
+                                    
+                                    
+                                
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+        <!-- Avilable seat and ticketing interface -->
 
     </main>
-    <footer>
+    <footer class="footer p-24 h-[400px]  bg-neutral text-neutral-content">
+        <div class="grid grid-cols-2 justify-between items-center">
+            <div class=" ml-10  h-24 ">
+                <h3 class="">P-Ticket</h3>
+                <p class="mt-5"> P-Ticket is a digital platform to make your <br>daily community better</p>
+            </div>
+            <div class=" ml-96">
+                <p class=" text-white">Download our app</p>
+                <div class="border mt-2 flex rounded-md bg-black p-2">
+                    <img src="images/playstore.png" alt="">
+                    <div class="text-white">
+                        <p class=" text-sm ">Get it now</p>
+                        <h4 class="text-xl">Google Play</h4>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-top: 2px dashed white;margin-left:40px; margin-top:60px;width:100%;">
+            <hr style="border-top: 2px dashed white;margin-left:40px; margin-top:60px; width:92%;">
+        </div>
+
 
     </footer>
+    <!-- <footer class="footer  p-10 bg-neutral text-neutral-content">
+        <nav>
+            <h6 class=" text-xl font-extrabold text-white">P-Ticket</h6>
+            <a class="link link-hover">P-Ticket is a digital platform to make your <br>daily community better</a>
+
+            <hr style="border-top: 2px dashed white; width:100%;">
+           
+        </nav>
+      
+        <nav class="">
+
+            <p class=" text-white">Download our app</p>
+            <div class="border flex rounded-md bg-black p-2">
+                <img src="images/playstore.png" alt="">
+                <div class="text-white">
+                    <p class=" text-sm ">Get it now</p>
+                    <h4 class="text-xl">Google Play</h4>
+                </div>
+            </div>
+
+            <hr style="border-top: 2px dashed white; width:200%;">
+        </nav>
+    </footer> -->
+
 </body>
 
 </html>
