@@ -11,7 +11,13 @@
 
 
 .vertical-dashed-line{
-    border-left: 2px dashed #888;
-    height: 80%;
-    margin: 0 auto;
+    /* border-left: 2px dashed #888; */
+    border-left: 2px dashed #0307124D;
+    height: 100%;
+    margin-right: 50px ;
+}
+hr {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #888;
 }
