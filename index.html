@@ -72,7 +72,7 @@
             <h1 class="text-4xl font-bold text-black text-center">Best offers for you</h1>
 
             <div class=" flex justify-between gap-10 mt-7 mx-16  flex-col lg:flex-row">
-                 <!-- first coupon -->
+                <!-- first coupon -->
                 <div class="flex justify-between rounded-3xl w-[573px] h-[220px] bg-[#FFBF0F]">
                     <div class="px-4 mt-10 ml-6">
                         <h1 class="font-extrabold text-5xl text-[#030712CC]">15% OFF</h1>
@@ -85,7 +85,7 @@
                         <p class="text-[#03071266] text-sm font-medium mt-2">Coupon code</p>
                     </div>
                 </div>
-              <!-- second coupon -->
+                <!-- second coupon -->
                 <div class="flex justify-between rounded-3xl w-[573px] h-[220px] bg-[#F78C9C]">
                     <div class="px-4 mt-10 ml-6">
                         <h1 class="font-extrabold text-5xl text-[#030712CC]">20% OFF</h1>
@@ -127,7 +127,8 @@
                         </div>
                         <div class="flex justify-center gap-2 bg-[#1DD10026] ml-44 w-[172px] rounded-lg h-[50px]">
                             <img class="w-[21px] h-[21px] mt-3" src="images/seat-green.png" alt="">
-                            <h4 id="seat-left" class="text-[#1DD100] text-xl font-medium pt-2">8 seats left</h4>
+                            <h4 id="seat-left" class="text-[#1DD100] text-xl font-medium pt-2"> <span
+                                    id="seat-decrease">8</span> seats left</h4>
                         </div>
                     </div>
                     <div class="w-[808px] h-[258px] space-y-5 px-6 mt-5 bg-[#F7F8F8]">
@@ -188,24 +189,24 @@
                             <img class=" w-6 h-6 " src="images/Vector@2x.jpeg" alt="">
 
                         </div>
-                       <div >
-                        <div id="id="seat-container" class="flex justify-around gap-1 my-1 w-full">
-                            <p id="A" class="pt-3 text-lg">A</p>
-                            <kbd id="A1" class="kbd w-[110px] h-[56px]">A1</kbd>
-                            <kbd id="A2" class="kbd w-[110px] h-[56px]">A2</kbd>
-                            <kbd id="A3" class="kbd w-[110px] h-[56px]">A3</kbd>
-                            <kbd id="A4" class="kbd w-[110px] h-[56px]">A4</kbd>
+                        <div id="seat-container">
+                            <div class="flex justify-around gap-1 my-1 w-full">
+                                <p class="pt-3 text-lg">A</p>
+                                <kbd id="A1" class="kbd w-[110px] h-[56px]  ">A1</kbd>
+                                <kbd id="A2" class="kbd w-[110px] h-[56px]  ">A2</kbd>
+                                <kbd id="A3" class="kbd w-[110px] h-[56px]  ">A3</kbd>
+                                <kbd id="A4" class="kbd w-[110px] h-[56px]  ">A4</kbd>
 
-                        </div>
+                            </div>
+                            <div class="flex justify-around gap-1 mt-6 my-1 w-full">
+                                <kbd id="B" class="pt-3 text-lg">B</kbd>
+                                <kbd id="B1" class="kbd w-[110px] h-[56px]  ">B1</kbd>
+                                <kbd id="B2" class="kbd w-[110px] h-[56px]  ">B2</kbd>
+                                <kbd id="B3" class="kbd w-[110px] h-[56px]  ">B3</kbd>
+                                <kbd id="B4" class="kbd w-[110px] h-[56px]  ">B4</kbd>
+                            </div>
+                            <!-- </div>
                         <div class="flex justify-around gap-1 my-1 w-full">
-                            <kbd id="B" class="pt-3 text-lg">B</kbd>
-                            <kbd id="B1" class="kbd w-[110px] h-[56px]">B1</kbd>
-                            <kbd id="B2" class="kbd w-[110px] h-[56px]">B2</kbd>
-                            <kbd id="B3" class="kbd w-[110px] h-[56px]">B3</kbd>
-                            <kbd id="B4" class="kbd w-[110px] h-[56px]">B4</kbd>
-                        </div>
-                       </div>
-                        <!-- <div class="flex justify-around gap-1 my-1 w-full">
                             <kbd id="C" class="pt-3 text-lg">C</kbd>
                             <kbd id="C1" class="kbd w-[110px] h-[56px] ">C1</kbd>
                             <kbd id="C2" class="kbd w-[110px] h-[56px] ">C2</kbd>
@@ -217,12 +218,12 @@
                             <kbd id="D" class="pt-3 text-lg">D</kbd>
                             <kbd id="D1" class="kbd  w-[110px] h-[56px]">D1</kbd>
                             <kbd id="D2" class="kbd  w-[110px] h-[56px]">D2</kbd>
-                            <kbd id="D3" class="kbd  w-[110px] h-[56px] bg-[#1DD100]">D3</kbd>
+                            <kbd id="D3" class="kbd  w-[110px] h-[56px]">D3</kbd>
                             <kbd id="D4" class="kbd  w-[110px] h-[56px]">D4</kbd>
                         </div>
                         <div class="flex justify-around gap-1 my-1 w-full">
                             <kbd id="E" class="pt-3 text-lg">E</kbd>
-                            <kbd id="E1" class=" kbd  w-[110px] h-[56px] bg-[#1DD100]">E1</kbd>
+                            <kbd id="E1" class=" kbd  w-[110px] h-[56px] ">E1</kbd>
                             <kbd id="E2" class="kbd  w-[110px] h-[56px]">E2</kbd>
                             <kbd id="E3" class="kbd  w-[110px] h-[56px]">E3</kbd>
                             <kbd id="E4" class="kbd  w-[110px] h-[56px]">E4</kbd>
@@ -238,7 +239,7 @@
                         <div class="flex justify-around gap-1 my-1 w-full">
                             <kbd id="G" class="pt-3 text-lg">G</kbd>
                             <kbd id="G1" class="kbd  w-[110px] h-[56px]">G1</kbd>
-                            <kbd id="G2" class="kbd bg-[#1DD100]  w-[110px] h-[56px]">G2</kbd>
+                            <kbd id="G2" class="kbd  w-[110px] h-[56px]">G2</kbd>
                             <kbd id="G3" class="kbd  w-[110px] h-[56px]">G3</kbd>
                             <kbd id="G4" class="kbd  w-[110px] h-[56px]">G4</kbd>
 
@@ -265,94 +266,95 @@
                             <kbd id="J3" class="kbd w-[110px] h-[56px]">J3</kbd>
                             <kbd id="J4" class="kbd w-[110px] h-[56px]">J4</kbd>
                         </div>
- -->
 
-                        <!-- seat number end -->
+
+                        seat number end -->
+                        </div>
+                        <div class="vertical-dashed-line "></div>
                     </div>
-                    <div class="vertical-dashed-line "></div>
-                </div>
-                <!-- ticket pay section -->
-                <div class=" w-[480px] ml-24 mt-10  ">
-                    <div class="space-y-4 ml-3">
-                        <h1 class="text-xl font-bold ">Select Your Seat</h1>
-                        <hr style="border-top: 2px dashed #03071233 ;width: 100%;">
-                    </div>
-                    <div class="flex  w-full ">
+                    <!-- ticket pay section -->
+                    <div class=" w-[480px] ml-24 mt-10  ">
+                        <div class="space-y-4 ml-3">
+                            <h1 class="text-xl font-bold ">Select Your Seat</h1>
+                            <hr style="border-top: 2px dashed #03071233 ;width: 100%;">
+                        </div>
+                        <div class="flex  w-full ">
 
 
-                        <div class=" mt-16 mr-4 w-[433px]  h-[335px]">
-                            <table class="table  ml-5">
-                                <!-- head -->
-                                <thead>
-                                    <tr class="text-sm font-medium text-[#030712]">
-                                        <th>Seat <span class="bg-[#1DD100] px-2 rounded-md text-white">2</span></th>
-                                        <th>Class</th>
-                                        <th>Price</th>
+                            <div class=" mt-16 mr-4 w-[433px]  h-[335px]">
+                                <table class="table  ml-5">
+                                    <!-- head -->
+                                    <thead>
+                                        <tr class="text-sm font-medium text-[#030712]">
+                                            <th>Seat <span id="seat-update"
+                                                    class=" bg-[#1DD100] px-2 rounded-md text-white">2</span></th>
+                                            <th>Class</th>
+                                            <th>Price</th>
 
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <!-- row 1 -->
-                                    <tr>
-                                        <td>C2</td>
-                                        <td>Economy</td>
-                                        <td>550</td>
-                                    </tr>
-                                    <!-- row 2 -->
-                                    <tr>
-                                        <td>C2</td>
-                                        <td>Economy</td>
-                                        <td>550</td>
-                                    </tr>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="ticket-info" class="">
+                                        <!-- row 1 -->
+                                        <tr >
+                                            <td id="seat">C2</td>
+                                            <td id="class">Economy</td>
+                                            <td id="amount">550</td>
+                                        </tr>
+                                        <!-- row 2 -->
+                                        <tr >
+                                            <td>C2</td>
+                                            <td>Economy</td>
+                                            <td>550</td>
+                                        </tr>
 
-                                    <!-- row 3 -->
+                                        <!-- row 3 -->
 
-                                </tbody>
-                            </table>
-                            <hr class="w-full ml-5">
-                            <h1 id="total-price" class="px-5">Total price <span class="ml-56">BDT 1100</span></h1>
-                            <br>
-                            <div
-                                class="bg-white rounded-md flex justify-between border px-3 pt-1 ml-8 mr-8 w-[369px] h-[50px]">
-                                <input class="h-10  px-3" type="text" placeholder="Have any coupon?">
-                                <button class="bg-[#1DD100] rounded-md w-20 text-white pb-1   mb-1 ">Apply</button>
+                                    </tbody>
+                                </table>
+                                <hr class="w-full ml-5">
+                                <h1 id="total-price" class="px-5">Total price <span class="ml-56">BDT 1100</span></h1>
+                                <br>
+                                <div
+                                    class="bg-white rounded-md flex justify-between border px-3 pt-1 ml-8 mr-8 w-[369px] h-[50px]">
+                                    <input class="h-10  px-3" type="text" placeholder="Have any coupon?">
+                                    <button class="bg-[#1DD100] rounded-md w-20 text-white pb-1   mb-1 ">Apply</button>
+                                </div>
+                                <h1 class="mt-5 px-5"> Grand Total<span class="ml-56">BDT 1100</span></h1>
                             </div>
-                            <h1 class="mt-5 px-5"> Grand Total<span class="ml-56">BDT 1100</span></h1>
+
+                            <!-- </div> -->
+
+                        </div>
+                        <div class="px-8 pt-8 space-y-3">
+                            <h1 class="text-lg font-bold">Passenger Name</h1>
+                            <input class="px-3 w-[433px] h-[64px]" type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="px-8 pt-8 space-y-3">
+                            <h1 class="text-lg font-bold">Phone Number</h1>
+                            <input class="px-3 w-[433px] h-[64px]" type="number" placeholder="Enter your phone number">
+                        </div>
+                        <div class="px-8 pt-8 space-y-3">
+                            <h1 class="text-lg font-bold">Email ID</h1>
+                            <input class="px-3 w-[433px] h-[65px]" type="number" placeholder="Enter your email id">
+                        </div>
+                        <button
+                            class="bg-[#1DD100] ml-6 mt-5 w-[433px] h-[65px] rounded-md text-white text-xl">Next</button>
+                        <div class="flex justify-between items-center px-10 pt-6">
+                            <div>
+                                <p class="text-black text-base">Terms and condition</p>
+                                <hr class="mb-4">
+                            </div>
+                            <div>
+                                <p class="text-base text-black">Cancellation policy</p>
+                                <hr class="mb-4">
+                            </div>
                         </div>
 
-                        <!-- </div> -->
-
-                    </div>
-                    <div class="px-8 pt-8 space-y-3">
-                        <h1 class="text-lg font-bold">Passenger Name</h1>
-                        <input class="px-3 w-[433px] h-[64px]" type="text" placeholder="Enter your name">
-                    </div>
-                    <div class="px-8 pt-8 space-y-3">
-                        <h1 class="text-lg font-bold">Phone Number</h1>
-                        <input class="px-3 w-[433px] h-[64px]" type="number" placeholder="Enter your phone number">
-                    </div>
-                    <div class="px-8 pt-8 space-y-3">
-                        <h1 class="text-lg font-bold">Email ID</h1>
-                        <input class="px-3 w-[433px] h-[65px]" type="number" placeholder="Enter your email id">
-                    </div>
-                    <button
-                        class="bg-[#1DD100] ml-6 mt-5 w-[433px] h-[65px] rounded-md text-white text-xl">Next</button>
-                    <div class="flex justify-between items-center px-10 pt-6">
-                        <div>
-                            <p class="text-black text-base">Terms and condition</p>
-                            <hr class="mb-4">
-                        </div>
-                        <div>
-                            <p class="text-base text-black">Cancellation policy</p>
-                            <hr class="mb-4">
-                        </div>
                     </div>
 
                 </div>
 
             </div>
-
-        </div>
 
 
     </main>
@@ -401,7 +403,7 @@
             <hr style="border-top: 2px dashed white; width:200%;">
         </nav>
     </footer> -->
-<script src="scripts/scripts.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
 
 </html>
