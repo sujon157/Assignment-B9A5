@@ -64,13 +64,10 @@
         </div>
 
     </header>
-    <main class="mt-28">
+    <main>
         <!-- Offers section -->
-        <div class="grid grid-cols-1 justify-center items-center">
-
-
-            <h1 class="text-4xl font-bold text-black text-center">Best offers for you</h1>
-
+            <section class="grid grid-cols-1 mt-14 justify-center items-center">
+                <h1 class="text-4xl font-bold text-black text-center">Best offers for you</h1>
             <div class=" flex justify-between gap-10 mt-7 mx-16  flex-col lg:flex-row">
                 <!-- first coupon -->
                 <div class="flex justify-between rounded-3xl w-[573px] h-[220px] bg-[#FFBF0F]">
@@ -98,16 +95,16 @@
                         <p class="text-[#03071266] text-sm font-medium mt-2">Coupon code</p>
                     </div>
                 </div>
-
+                
             </div>
-            <div class="mt-16 ml-[580px]  rounded-lg   w-[400px] h-[65px]">
+            <div  class=" my-20 ml-[547px] text-white text-center py-6 bg-[#1DD100]  rounded-lg   w-[180px] h-[70px]">
                 <!-- button -->
-                <button class="btn  btn-outline btn-success text-2xl ">See All Offers</button>
+                <button >See All Offers</button>
             </div>
-        </div>
-        <!-- Bus info -->
+            </section>
 
-        <div id="bus-info" class=" bg-[#F7F8F8] w-auto ml-16  my-20">
+        <!-- Bus info -->
+        <div id="bus-info" class=" bg-[#F7F8F8] h-[1800px] w-100%">
             <div class="text-center mt-16">
                 <h2 class="text-black font-extrabold text-2xl ">P.H Paribahan</h2>
                 <p class="mb-5 mt-6">Yes,you can run unit tests and view the result directly within the app.The
@@ -128,7 +125,7 @@
                         <div class="flex justify-center gap-2 bg-[#1DD10026] ml-44 w-[172px] rounded-lg h-[50px]">
                             <img class="w-[21px] h-[21px] mt-3" src="images/seat-green.png" alt="">
                             <h4 id="seat-left" class="text-[#1DD100] text-xl font-medium pt-2"> <span
-                                    id="seat-decrease">8</span> seats left</h4>
+                                    id="seat-decrease">4</span> seats left</h4>
                         </div>
                     </div>
                     <div class="w-[808px] h-[258px] space-y-5 px-6 mt-5 bg-[#F7F8F8]">
@@ -165,13 +162,13 @@
             <!-- Avilable seat and ticketing interface -->
             <div class="grid grid-cols-2  mr-6 h-[1056px] rounded-2xl w-[1150px] my-5 lg:ml-16 border  bg-[#FFFFFF]">
                 <!-- seat section -->
-                <div class="flex">
-                    <div class=" mr-6 space-y-4 mt-10 w-[650px] ml-4">
-                        <h1 class="text-xl font-bold">Select Your Seat</h1>
+                <div class="flex ">
+                    <div class="  mr-6 space-y-4 mt-10 w-[650px] ">
+                        <h1 class="text-xl font-bold px-3">Select Your Seat</h1>
                         <hr style="border-top: 2px dashed #03071233 ;width: 100%;">
                         <div class="flex justify-between">
 
-                            <div class="flex gap-2 ">
+                            <div class="flex gap-2 px-3">
 
                                 <img src="images/seat-gray.png" alt="">
                                 <span>Available</span>
@@ -183,146 +180,95 @@
                             </div>
                         </div>
                         <hr style="border-top: 2px dashed #03071233 ;width:100%;">
-                        <!-- seat Number start -->
-                        <div
-                            class="bg-[#0307121A] rounded-md text-center mr-5 ml-[508px] px-10 pt-4 w-[105px] h-[56px] ">
+                        
+                        <div id="color" class="bg-[#0307121A]  rounded-md text-center ml-[480px] px-10 pt-4 w-[105px] h-[56px] ">
                             <img class=" w-6 h-6 " src="images/Vector@2x.jpeg" alt="">
 
                         </div>
-                        <div id="seat-container">
-                            <div class="flex justify-around gap-1 my-1 w-full">
-                                <p class="pt-3 text-lg">A</p>
+                           <!--  All Seats  -->
+                            <div class="flex  px-4 gap-10 mr-20 mt-6 my-1 w-full">
+                             <!-- seat Number start -->
+                                <kbd id="A" class="pt-3 text-lg">A</kbd>
                                 <kbd id="A1" class="kbd w-[110px] h-[56px]  ">A1</kbd>
                                 <kbd id="A2" class="kbd w-[110px] h-[56px]  ">A2</kbd>
-                                <kbd id="A3" class="kbd w-[110px] h-[56px]  ">A3</kbd>
-                                <kbd id="A4" class="kbd w-[110px] h-[56px]  ">A4</kbd>
+                            
 
                             </div>
-                            <div class="flex justify-around gap-1 mt-6 my-1 w-full">
-                                <kbd id="B" class="pt-3 text-lg">B</kbd>
+                            <div class="flex px-4 gap-10 mr-20 mt-6 my-1 w-full">
+                                <kbd id="B" class="pt-3 text-lg ">B</kbd>
                                 <kbd id="B1" class="kbd w-[110px] h-[56px]  ">B1</kbd>
                                 <kbd id="B2" class="kbd w-[110px] h-[56px]  ">B2</kbd>
-                                <kbd id="B3" class="kbd w-[110px] h-[56px]  ">B3</kbd>
-                                <kbd id="B4" class="kbd w-[110px] h-[56px]  ">B4</kbd>
+                                
                             </div>
-                            <!-- </div>
-                        <div class="flex justify-around gap-1 my-1 w-full">
-                            <kbd id="C" class="pt-3 text-lg">C</kbd>
-                            <kbd id="C1" class="kbd w-[110px] h-[56px] ">C1</kbd>
-                            <kbd id="C2" class="kbd w-[110px] h-[56px] ">C2</kbd>
-                            <kbd id="C3" class="kbd w-[110px] h-[56px] ">C3</kbd>
-                            <kbd id="C4" class="kbd w-[110px] h-[56px] ">C4</kbd>
+                            <div class="flex  px-4 gap-10 mr-20 mt-6 my-1 w-full">
+                             <!-- seat Number start -->
+                                <kbd id="C" class="pt-3 text-lg">C</kbd>
+                                <kbd id="C1" class="kbd w-[110px] h-[56px]  ">C1</kbd>
+                                <kbd id="C2" class="kbd w-[110px] h-[56px]  ">C2</kbd>
+                            
 
-                        </div>
-                        <div class="flex justify-around gap-1 my-1 w-full">
-                            <kbd id="D" class="pt-3 text-lg">D</kbd>
-                            <kbd id="D1" class="kbd  w-[110px] h-[56px]">D1</kbd>
-                            <kbd id="D2" class="kbd  w-[110px] h-[56px]">D2</kbd>
-                            <kbd id="D3" class="kbd  w-[110px] h-[56px]">D3</kbd>
-                            <kbd id="D4" class="kbd  w-[110px] h-[56px]">D4</kbd>
-                        </div>
-                        <div class="flex justify-around gap-1 my-1 w-full">
-                            <kbd id="E" class="pt-3 text-lg">E</kbd>
-                            <kbd id="E1" class=" kbd  w-[110px] h-[56px] ">E1</kbd>
-                            <kbd id="E2" class="kbd  w-[110px] h-[56px]">E2</kbd>
-                            <kbd id="E3" class="kbd  w-[110px] h-[56px]">E3</kbd>
-                            <kbd id="E4" class="kbd  w-[110px] h-[56px]">E4</kbd>
-
-                        </div>
-                        <div class="flex justify-around gap-1 my-1 w-full">
-                            <kbd id="F" class="pt-3 text-lg">F</kbd>
-                            <kbd id="F1" class="kbd w-[110px] h-[56px]">F1</kbd>
-                            <kbd id="F2" class="kbd w-[110px] h-[56px]">F2</kbd>
-                            <kbd id="F3" class="kbd w-[110px] h-[56px]">F3</kbd>
-                            <kbd id="F4" class="kbd w-[110px] h-[56px]">F4</kbd>
-                        </div>
-                        <div class="flex justify-around gap-1 my-1 w-full">
-                            <kbd id="G" class="pt-3 text-lg">G</kbd>
-                            <kbd id="G1" class="kbd  w-[110px] h-[56px]">G1</kbd>
-                            <kbd id="G2" class="kbd  w-[110px] h-[56px]">G2</kbd>
-                            <kbd id="G3" class="kbd  w-[110px] h-[56px]">G3</kbd>
-                            <kbd id="G4" class="kbd  w-[110px] h-[56px]">G4</kbd>
-
-                        </div>
-                        <div class="flex justify-around gap-1 my-1 w-full">
-                            <kbd id="H" class="pt-3 text-lg"> H</kbd>
-                            <kbd id="H1" class="kbd w-[110px] h-[56px] ">H1</kbd>
-                            <kbd id="H2" class="kbd w-[110px] h-[56px] ">H2</kbd>
-                            <kbd id="H3" class="kbd w-[110px] h-[56px] ">H3</kbd>
-                            <kbd id="H4" class="kbd w-[110px] h-[56px] ">H4</kbd>
-                        </div>
-                        <div class="flex justify-around gap-1 my-1 w-full">
-                            <kbd id="I" class="pt-3 text-lg">I</kbd>
-                            <kbd id="I1" class="kbd w-[110px] h-[56px]">I1</kbd>
-                            <kbd id="I2" class="kbd w-[110px] h-[56px]">I2</kbd>
-                            <kbd id="I3" class="kbd w-[110px] h-[56px]">I3</kbd>
-                            <kbd id="I4" class="kbd w-[110px] h-[56px]">I4</kbd>
-
-                        </div>
-                        <div class="flex justify-around gap-1 my-1 w-full">
-                            <kbd id="J" class="pt-3 text-lg">J</kbd>
-                            <kbd id="J1" class="kbd w-[110px] h-[56px]">J1</kbd>
-                            <kbd id="J2" class="kbd w-[110px] h-[56px]">J2</kbd>
-                            <kbd id="J3" class="kbd w-[110px] h-[56px]">J3</kbd>
-                            <kbd id="J4" class="kbd w-[110px] h-[56px]">J4</kbd>
-                        </div>
-
-
-                        seat number end -->
-                        </div>
-                        <div class="vertical-dashed-line "></div>
+                            </div>
+                            <div class="flex  px-4 gap-10 mr-20 mt-6 my-1 w-full">
+                                <kbd id="D" class="pt-3 text-lg">D</kbd>
+                                <kbd id="D1" class="kbd w-[110px] h-[56px]  ">D1</kbd>
+                                <kbd id="D2" class="kbd w-[110px] h-[56px]  ">D2</kbd>
+                                
+                            </div>
                     </div>
-                    <!-- ticket pay section -->
-                    <div class=" w-[480px] ml-24 mt-10  ">
+                    
+                    <div class="vertical-dashed-line mr-4 "></div>
+                    <div class=" w-[480px]  mt-10  ">
+                       
                         <div class="space-y-4 ml-3">
                             <h1 class="text-xl font-bold ">Select Your Seat</h1>
                             <hr style="border-top: 2px dashed #03071233 ;width: 100%;">
                         </div>
-                        <div class="flex  w-full ">
+                        <div class=" ">
 
 
-                            <div class=" mt-16 mr-4 w-[433px]  h-[335px]">
-                                <table class="table  ml-5">
-                                    <!-- head -->
-                                    <thead>
-                                        <tr class="text-sm font-medium text-[#030712]">
-                                            <th>Seat <span id="seat-update"
-                                                    class=" bg-[#1DD100] px-2 rounded-md text-white">2</span></th>
-                                            <th>Class</th>
-                                            <th>Price</th>
+                            <!-- <div class=" mt-16 border mr-4 w-[433px]  h-[335px]"> -->
+                            <table class="table  ml-5">
+                                <!-- head -->
+                                <thead>
+                                    <tr class="text-sm font-medium text-[#030712]">
+                                        <th>Seat <span id="seat-update"
+                                                class=" bg-[#1DD100] px-2 rounded-md text-white">2</span></th>
+                                        <th>Class</th>
+                                        <th>Price</th>
 
-                                        </tr>
-                                    </thead>
-                                    <tbody id="ticket-info" class="">
-                                        <!-- row 1 -->
-                                        <tr >
-                                            <td id="seat">C2</td>
-                                            <td id="class">Economy</td>
-                                            <td id="amount">550</td>
-                                        </tr>
-                                        <!-- row 2 -->
-                                        <tr >
-                                            <td>C2</td>
-                                            <td>Economy</td>
-                                            <td>550</td>
-                                        </tr>
+                                    </tr>
+                                </thead>
+                                <tbody id="ticket-info" class="">
+                                    <!-- row 1  -->
+                                    <tr>
+                                        <td id="seat">C2</td>
+                                        <td id="class">Economy</td>
+                                        <td id="amount">550</td>
+                                    </tr>
+                                    <!-- row 2 -->
+                                    <tr>
+                                        <td>C2</td>
+                                        <td>Economy</td>
+                                        <td>550</td>
+                                    </tr>
 
-                                        <!-- row 3 -->
 
-                                    </tbody>
-                                </table>
-                                <hr class="w-full ml-5">
-                                <h1 id="total-price" class="px-5">Total price <span class="ml-56">BDT 1100</span></h1>
-                                <br>
-                                <div
-                                    class="bg-white rounded-md flex justify-between border px-3 pt-1 ml-8 mr-8 w-[369px] h-[50px]">
-                                    <input class="h-10  px-3" type="text" placeholder="Have any coupon?">
-                                    <button class="bg-[#1DD100] rounded-md w-20 text-white pb-1   mb-1 ">Apply</button>
-                                </div>
-                                <h1 class="mt-5 px-5"> Grand Total<span class="ml-56">BDT 1100</span></h1>
+
+                                </tbody>
+                            </table>
+
+                            <hr class="w-full ml-5">
+                            <h1 id="total-price" class="px-5">Total price <span class="ml-56">BDT 1100</span></h1>
+                            <br>
+                            <div
+                                class="bg-white rounded-md flex justify-between border px-3 pt-1 ml-8 mr-8 w-[369px] h-[50px]">
+                                <input class="h-10  px-3" type="text" placeholder="Have any coupon?">
+                                <button class="bg-[#1DD100] rounded-md w-20 text-white pb-1   mb-1 ">Apply</button>
                             </div>
-
+                            <h1 class="mt-5 px-5"> Grand Total<span class="ml-56">BDT 1100</span></h1>
                             <!-- </div> -->
+
+
 
                         </div>
                         <div class="px-8 pt-8 space-y-3">
@@ -351,59 +297,40 @@
                         </div>
 
                     </div>
+            
 
                 </div>
 
             </div>
 
 
+        </div>
     </main>
-    <footer class="footer p-24 h-[400px]  bg-neutral text-neutral-content">
+    <footer class="footer  p-24 h-[350px]  bg-neutral text-neutral-content">
         <div class="grid grid-cols-2 justify-between items-center">
             <div class=" ml-10  h-24 ">
-                <h3 class="">P-Ticket</h3>
+                <h3 class="text-2xl font-bold text-white">P-Ticket</h3>
                 <p class="mt-5"> P-Ticket is a digital platform to make your <br>daily community better</p>
             </div>
             <div class=" ml-96">
                 <p class=" text-white">Download our app</p>
-                <div class="border mt-2 flex rounded-md bg-black p-2">
-                    <img src="images/playstore.png" alt="">
+                <div class="border  mt-2 flex rounded-md bg-black p-2">
+                    <img class="w-8 h-10" src="images/playstore.png" alt="">
                     <div class="text-white">
                         <p class=" text-sm ">Get it now</p>
                         <h4 class="text-xl">Google Play</h4>
                     </div>
                 </div>
             </div>
+            
             <hr style="border-top: 2px dashed white;margin-left:40px; margin-top:60px;width:100%;">
-            <hr style="border-top: 2px dashed white;margin-left:40px; margin-top:60px; width:92%;">
+            <hr style="border-top: 2px dashed white;margin-left:40px; margin-top:60px; width:100%;">
         </div>
 
 
     </footer>
-    <!-- <footer class="footer  p-10 bg-neutral text-neutral-content">
-        <nav>
-            <h6 class=" text-xl font-extrabold text-white">P-Ticket</h6>
-            <a class="link link-hover">P-Ticket is a digital platform to make your <br>daily community better</a>
-
-            <hr style="border-top: 2px dashed white; width:100%;">
-           
-        </nav>
-      
-        <nav class="">
-
-            <p class=" text-white">Download our app</p>
-            <div class="border flex rounded-md bg-black p-2">
-                <img src="images/playstore.png" alt="">
-                <div class="text-white">
-                    <p class=" text-sm ">Get it now</p>
-                    <h4 class="text-xl">Google Play</h4>
-                </div>
-            </div>
-
-            <hr style="border-top: 2px dashed white; width:200%;">
-        </nav>
-    </footer> -->
     <script src="scripts/scripts.js"></script>
+    
 </body>
 
 </html>

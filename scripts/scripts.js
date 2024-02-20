@@ -8,7 +8,7 @@ for(const btn of allBtn){
      
       
       if(count>=4){
-        return alert('Enough!');
+        return alert('Maximum selected!!!!');
       }
       
       btn.style.backgroundColor='green';
@@ -29,11 +29,12 @@ for(const btn of allBtn){
       
       const ticketInfo=document.getElementById('ticket-info');
       const tr=document.createElement('tr');
+   
+      
 
       const td1=document.createElement('td');
       td1.innerText=btn.innerText;
       tr.appendChild(td1);
-
       const td2=document.createElement('td');
       td2.innerText='Economy';
       tr.appendChild(td2);
